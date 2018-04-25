@@ -1,0 +1,13 @@
+https://138.197.177.187 {
+	tls connect@138.197.177.187
+	root /site/public
+
+
+git https://github.com/cans1194/beresta-blog-docker/site_src {
+	hook /webhook no_secret
+	clone_args --recurse-submodules
+	path  /site
+	then ssh {$HOST_IP} cd /root/site_infra/site; make all 
+}
+}
+

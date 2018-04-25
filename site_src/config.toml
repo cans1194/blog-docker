@@ -1,0 +1,70 @@
+baseURL = "138.197.177.187"
+languageCode = "en-us"
+themesDir = "themes"
+publishDir = "docs"
+defaultContentLanguage = "en"
+title = "Beresta Blog"
+theme = "hugo-dream-plus"
+
+copyright = ""
+googleAnalytics = ""
+
+disqusShortname = "BerestaBlog"
+
+enableRobotsTXT = true
+
+hasCJKLanguage = false
+
+#Enable Hugo Emoji Conversion
+enableEmoji=true
+
+[params]
+	author = "Vladislav"
+	description = "Blablabla govnocoder"
+	avatar = "/images/avatar.jpg"
+	motto = "A keen maker, programmer and engineer."
+	enableToc = true
+	enableShareCard = true
+
+	#Use your external CSS/JS files with this theme by placing the location of the file within the list. For example: "js/twemoji.js" 
+	customCSS = [""]
+	customJS  = [""]
+	favicon = "/img/defaultFav.ico"
+  
+	#Shorte.st Settings
+	enableShortest = false  
+  
+	#Background Settings
+	enableColorBG = false
+	bgBlur = 3
+	bgImage = "https://raw.githubusercontent.com/UtkarshVerma/hugo-dream-plus/master/static/img/bg1.jpeg"     #Absolute path for Hugo example site
+	#bgList = ["/img/bg1.jpeg"]
+  
+	#Post-displaying Settings
+	enableTags = true
+	enableCategories = true
+
+	#Cards or posts shown per page
+	itemsPerPage = 4
+
+	#Set whether you're hosting "cards" or "post"
+	contentType = "post"
+
+	#Enable/disable post/card  dimming effect
+	enableDimmer = true
+
+	#Enable Twitter Emoji
+	twitterEmoji=true
+
+	#Link to your blog
+	BlogLink = ""
+
+	#Social Links
+	email = "cans1194fan@gmail.com"
+	github = "cans1194"
+	linkedin = ""
+	codepen = ""
+	stackoverflow = ""
+	medium = ""
+	twitter = "" 
+	siteStartYear = 2018
